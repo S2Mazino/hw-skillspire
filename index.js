@@ -1,7 +1,7 @@
 function mathFunction(a, b) {
-    return a * b
+    return a + 1 * b
 }
-mathFunction(3, 4)
+mathFunction(8, 4)
 
 const person = {
     "name": "Lil Mo Diddy",
