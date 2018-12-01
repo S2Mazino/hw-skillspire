@@ -1,3 +1,26 @@
 p {
     color: #800020;
 }
+
+Table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+tr,
+th,
+td {
+    border: 2px solid black;
+}
+
+#background {
+    height: 200px;
+    width: 1000px;
+}
+
+body {
+    background-image: url("https://i.imgur.com/IuLzGLK.jpg")
+}
