@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{  
+    font-size: 50px;
+}
+p{ 
+    font-size: 25px
+}
+
+#Directions{
+    color: navy;
+    font-weight: bold;
+}
+
+button{
+    text-align: center;
+}
