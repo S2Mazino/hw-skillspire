@@ -1,6 +1,6 @@
 //variables
 var answer = Math.floor(Math.random()*10);
-var guess = 0;
+var guess;
 var guessMade = 0;
 var guessRemaining = 5;
 var gameStatus;
