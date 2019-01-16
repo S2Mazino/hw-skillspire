@@ -12,3 +12,13 @@ function andOperator(a,b){
 }
 
 andOperator(5,2)
+
+var l;
+var w;
+var h;
+function areaOfSquare(l,w,h){
+    return l * w * h 
+}
+ areaOfSquare(2,2,2)
+
+ 
