@@ -1,6 +1,13 @@
 //function with three argument, utilizing all three
-function pythagorean(username,a,b){
+function calculate(funcName,a,b){
+  if(funcName === "pythagoreanTheorem"){
     c=Math.sqrt((a**2)+(b**2))
-    return "Hi "+ username + " the answer is " + c
+    return c
+  }else if(funcName === "multiply"){
+    return a*b
+  }else if(funcName === "add"){
+    return a+b
   }
-  pythagorean("Nordine",3,4)
+  }
+  
+  calculate("pythagoreanTheorem",7,4)
