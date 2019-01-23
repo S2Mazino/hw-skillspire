@@ -38,6 +38,7 @@ function onMouseClick(){
     }
 }
 
+//Display when number of attempts is 0 or guessed correct number
 function gameEnd(){
     if(winner){
         output1.innerHTML = "Correct!!!"
