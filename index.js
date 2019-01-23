@@ -23,3 +23,12 @@ function mxdiflg(a1, a2) {
     }
     }return biggestDifference
     }
+
+//function used to practice operators
+function person(){
+    if(userAge < 67){
+        console.log("This person is senior")
+    } else if(userAge < 18){
+        console.log("This person is still a child")
+    } else console.log ("This person is an adult")
+}
