@@ -4,6 +4,10 @@ function mathFunction(a, b) {
 }
 mathFunction(3, 4)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71abae145c7b8fc5f5653cabda2d51b537419f2b
 //function that gives the maximum length difference.
 //Codewar assignment
 function mxdiflg(a1, a2) {
@@ -23,6 +27,7 @@ function mxdiflg(a1, a2) {
     }return biggestDifference
     }
 
+//function used to practice operators
 function person(){
     if(userAge < 67){
         console.log("This person is senior")
