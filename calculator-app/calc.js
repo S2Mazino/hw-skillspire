@@ -39,6 +39,7 @@ for(let i = 0; i < calcNumBtns.length; i++){
 
 }
 
+//making it so that when you use operator button, it will have different case-use
 var performOperation = (clickObj) => {
     var operator = clickObj.target.innerText;
 
