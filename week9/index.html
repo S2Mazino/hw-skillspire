@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>"this" in Javascript</h1>
     <p>
         The keyword "this" in javascript refers to the object it belongs to.
     </p>
@@ -17,6 +18,48 @@
     <p>
         In a event, this refers to the element it received an event from.
     </p>
+    <br>
+    <br>
+    <br>
+    <h1>Fun Fun Function</h1>
+    <p>Higher-order function: In JavaScript, functions are value so you are able to make a variable = a function.</p>
+    <p><b>Why use Higher order function:</b>
+        <ol>
+            <li>Less bugs</li>
+            <li>Write code in less time</li>
+            <li>Re-use more code</li>
+            <li>Easy to reason about</li>
+        </ol>
+    </p>
+
+    <p><b>Example of higher-order function:</b>
+        <li>filter: filter will loop through each item and call back the block of code you specified</li>
+        <li>reject: will give the != of the logical code given</li>
+    </p>
+    <p> var animals = [<br>
+        {name: 'fluffy', species: 'rabbit'},<br>
+        {name: 'caro', species: 'dog'},<br>
+        {name: 'hamilton', species: 'dog'},<br>
+        {name: 'harold', species: 'fish'}<br>
+    ]<br>
+    <br>
+    
+    <b>normal code:</b><br>
+    var = dogs[] <br>
+    for(var i=0; i < animals.length;i++){<br>
+        if(animals[i].species==='dog'){<br>
+            dogs.push(animals[i])<br>
+        }<br>
+    }<br>
+    <br>
+    
+    <b>higher-order function code:</b><br>
+    var dogs = animals.filter(function(animal)){<br>
+        return animal.species ==='dog'<br>
+    }<br>
+    </p>
+
+
 
 </body>
 </html>
