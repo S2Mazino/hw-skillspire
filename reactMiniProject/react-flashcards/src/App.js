@@ -29,8 +29,8 @@ class App extends Component {
       currentCards.push({
         id: snap.key,
         eng: snap.val().eng,
-        han: snap.val().han,
-        pin: snap.val().pin,
+        //han: snap.val().han,
+        definition: snap.val().definition,
       })
 
       this.setState({
@@ -58,8 +58,7 @@ class App extends Component {
       <div className="App">
         <div className="cardRow">
           <Card eng={this.state.currentCard.eng} 
-               han={this.state.currentCard.han}
-               pin={this.state.currentCard.pin}
+               definition={this.state.currentCard.definition}
            />
         </div>
         <div className="buttonRow">
