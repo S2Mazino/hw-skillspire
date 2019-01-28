@@ -8,8 +8,7 @@ const Card = (props) => (
                 <div className="eng">{props.eng}</div>
             </div>
             <div className="back">
-                <div className="han">{props.han}</div>
-                <div className="pin">{props.pin}</div>
+                <div className="definition">{props.definition}</div>
             </div>
         </div>
     </div>
